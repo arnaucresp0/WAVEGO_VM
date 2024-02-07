@@ -1,0 +1,98 @@
+[0.077s] Invoking command in '/home/pc/dev_src/build/ldlidar_node': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pc/dev_src/install/ldlidar_node
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.360s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.464s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.466s] --  * Release Mode
+[0.466s] -- * Found ROS2 humble
+[0.466s] -- * ROS2 humble is officially supported by this package.
+[0.476s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.697s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.791s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.828s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.897s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.908s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.924s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.954s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.102s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.106s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.239s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.267s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.331s] -- Looking for pthread.h
+[1.449s] -- Looking for pthread.h - found
+[1.449s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.524s] -- Found Threads: TRUE  
+[1.736s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.835s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.886s] -- Found ldlidar_component: 0.2.0 (/home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/cmake)
+[2.943s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.947s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.947s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.110s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.263s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.302s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.314s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.315s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.315s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.341s] -- Found PythonExtra: .so  
+[4.350s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.355s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.355s] -- Configured cppcheck include dirs: 
+[4.355s] -- Configured cppcheck exclude dirs and/or files: 
+[4.357s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.357s] -- Configured cpplint exclude dirs and/or files: 
+[4.358s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.359s] -- Added test 'lint_cmake' to check CMake code style
+[4.362s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.364s] -- Added test 'uncrustify' to check C / C++ code style
+[4.364s] -- Configured uncrustify additional arguments: 
+[4.365s] -- Added test 'xmllint' to check XML markup files
+[4.367s] -- Configuring done
+[4.409s] -- Generating done
+[4.412s] -- Build files have been written to: /home/pc/dev_src/build/ldlidar_node
+[4.422s] Invoked command in '/home/pc/dev_src/build/ldlidar_node' returned '0': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pc/dev_src/install/ldlidar_node
+[4.426s] Invoking command in '/home/pc/dev_src/build/ldlidar_node': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pc/dev_src/build/ldlidar_node -- -j2 -l2
+[4.503s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_node.dir/src/ldlidar_container_node.cpp.o[0m
+[9.439s] [100%] [32m[1mLinking CXX executable ldlidar_node[0m
+[9.727s] [100%] Built target ldlidar_node
+[9.750s] Invoked command in '/home/pc/dev_src/build/ldlidar_node' returned '0': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pc/dev_src/build/ldlidar_node -- -j2 -l2
+[9.774s] Invoking command in '/home/pc/dev_src/build/ldlidar_node': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pc/dev_src/build/ldlidar_node
+[9.784s] -- Install configuration: "Release"
+[9.785s] -- Execute custom install script
+[9.786s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/lib/ldlidar_node/ldlidar_node
+[9.799s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/params/ldlidar.yaml
+[9.810s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/params/lifecycle_mgr.yaml
+[9.821s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/config/ldlidar.rviz
+[9.832s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/urdf/ldlidar_descr.urdf.xml
+[9.842s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/urdf/model/LD19.stl
+[9.863s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/launch/ldlidar.launch.py
+[9.885s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_rviz2.launch.py
+[9.906s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/launch/ldlidar_with_mgr.launch.py
+[9.924s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ament_index/resource_index/package_run_dependencies/ldlidar_node
+[9.934s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ament_index/resource_index/parent_prefix_path/ldlidar_node
+[9.943s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.sh
+[9.955s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/environment/ament_prefix_path.dsv
+[9.971s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/environment/path.sh
+[9.981s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/environment/path.dsv
+[9.990s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/local_setup.bash
+[10.003s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/local_setup.sh
+[10.013s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/local_setup.zsh
+[10.022s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/local_setup.dsv
+[10.032s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/package.dsv
+[10.041s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ament_index/resource_index/packages/ldlidar_node
+[10.051s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig.cmake
+[10.060s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/cmake/ldlidar_nodeConfig-version.cmake
+[10.070s] -- Symlinking: /home/pc/dev_src/install/ldlidar_node/share/ldlidar_node/package.xml
+[10.081s] Invoked command in '/home/pc/dev_src/build/ldlidar_node' returned '0': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pc/dev_src/build/ldlidar_node

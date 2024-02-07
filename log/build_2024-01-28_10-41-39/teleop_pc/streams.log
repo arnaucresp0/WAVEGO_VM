@@ -1,0 +1,21 @@
+[1.026s] Invoking command in '/home/pc/dev_src/build/teleop_pc': PYTHONPATH=/home/pc/dev_src/build/teleop_pc/prefix_override:/home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pc/dev_src/build/teleop_pc/build --no-deps install_data
+[1.343s] running develop
+[1.345s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.345s]   warnings.warn(
+[1.349s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.350s]   warnings.warn(
+[1.533s] running egg_info
+[1.533s] writing teleop_pc.egg-info/PKG-INFO
+[1.534s] writing dependency_links to teleop_pc.egg-info/dependency_links.txt
+[1.535s] writing entry points to teleop_pc.egg-info/entry_points.txt
+[1.536s] writing requirements to teleop_pc.egg-info/requires.txt
+[1.536s] writing top-level names to teleop_pc.egg-info/top_level.txt
+[1.539s] reading manifest file 'teleop_pc.egg-info/SOURCES.txt'
+[1.540s] writing manifest file 'teleop_pc.egg-info/SOURCES.txt'
+[1.542s] running build_ext
+[1.542s] Creating /home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages/teleop-pc.egg-link (link to .)
+[1.544s] Installing teleop_pc_node script to /home/pc/dev_src/install/teleop_pc/lib/teleop_pc
+[1.545s] 
+[1.545s] Installed /home/pc/dev_src/build/teleop_pc
+[1.545s] running install_data
+[1.592s] Invoked command in '/home/pc/dev_src/build/teleop_pc' returned '0': PYTHONPATH=/home/pc/dev_src/build/teleop_pc/prefix_override:/home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pc/dev_src/build/teleop_pc/build --no-deps install_data

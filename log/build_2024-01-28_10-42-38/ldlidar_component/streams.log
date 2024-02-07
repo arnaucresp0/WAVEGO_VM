@@ -1,0 +1,83 @@
+[0.190s] Invoking command in '/home/pc/dev_src/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pc/dev_src/install/ldlidar_component
+[0.210s] --  * Release Mode
+[0.210s] -- * Found ROS2 humble
+[0.210s] -- * ROS2 humble is officially supported by this package.
+[0.210s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.378s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.413s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.417s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.424s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.533s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.698s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.040s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.110s] -- Found nav2_util: 1.1.12 (/opt/ros/humble/share/nav2_util/cmake)
+[2.108s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.110s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.110s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.324s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.435s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[2.495s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[2.521s] -- Checking for module 'libudev'
+[2.536s] --   Found libudev, version 249
+[2.575s] -- Found UDEV: /usr/lib/x86_64-linux-gnu/libudev.so  
+[3.190s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.308s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.310s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.311s] -- Configured cppcheck include dirs: /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_component/include;/home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_component/driver/include;/home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_component/tools/include;/home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_component/component/include
+[3.311s] -- Configured cppcheck exclude dirs and/or files: 
+[3.313s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.313s] -- Configured cpplint exclude dirs and/or files: 
+[3.315s] -- Added test 'lint_cmake' to check CMake code style
+[3.318s] -- Added test 'uncrustify' to check C / C++ code style
+[3.318s] -- Configured uncrustify additional arguments: 
+[3.320s] -- Added test 'xmllint' to check XML markup files
+[3.322s] -- Added test 'clang_format' to check C / C++ code style
+[3.330s] -- Configuring done
+[3.437s] -- Generating done
+[3.441s] -- Build files have been written to: /home/pc/dev_src/build/ldlidar_component
+[3.451s] Invoked command in '/home/pc/dev_src/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pc/dev_src/install/ldlidar_component
+[3.452s] Invoking command in '/home/pc/dev_src/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/dev_src/build/ldlidar_component -- -j2 -l2
+[3.535s] [ 16%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/tools/src/ldlidar_tools.cpp.o[0m
+[3.541s] [ 33%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/component/src/ldlidar_component.cpp.o[0m
+[4.974s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/driver/src/cmd_interface_linux.cpp.o[0m
+[5.942s] [ 66%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/driver/src/lipkg.cpp.o[0m
+[7.526s] [ 83%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/driver/src/tofbf.cpp.o[0m
+[14.043s] [100%] [32m[1mLinking CXX shared library libldlidar_component.so[0m
+[14.373s] [100%] Built target ldlidar_component
+[14.387s] Invoked command in '/home/pc/dev_src/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pc/dev_src/build/ldlidar_component -- -j2 -l2
+[14.431s] Invoking command in '/home/pc/dev_src/build/ldlidar_component': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/dev_src/build/ldlidar_component
+[14.438s] -- Install configuration: "Release"
+[14.439s] -- Execute custom install script
+[14.440s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/lib/libldlidar_component.so
+[14.451s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp
+[14.460s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp
+[14.472s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/include/ldlidar_component//cmd_interface_linux.hpp
+[14.482s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/include/ldlidar_component//lipkg.hpp
+[14.495s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/include/ldlidar_component//tofbf.hpp
+[14.505s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp
+[14.517s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh
+[14.527s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv
+[14.538s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component
+[14.549s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component
+[14.558s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh
+[14.571s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv
+[14.582s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/environment/path.sh
+[14.592s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/environment/path.dsv
+[14.601s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/local_setup.bash
+[14.609s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/local_setup.sh
+[14.620s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/local_setup.zsh
+[14.627s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/local_setup.dsv
+[14.640s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/package.dsv
+[14.653s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component
+[14.662s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component
+[14.675s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.688s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake
+[14.700s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.710s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake
+[14.720s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake
+[14.730s] -- Symlinking: /home/pc/dev_src/install/ldlidar_component/share/ldlidar_component/package.xml
+[14.740s] Invoked command in '/home/pc/dev_src/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pc/dev_src/build/ldlidar_component

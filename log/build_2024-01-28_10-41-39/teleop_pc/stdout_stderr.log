@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing teleop_pc.egg-info/PKG-INFO
+writing dependency_links to teleop_pc.egg-info/dependency_links.txt
+writing entry points to teleop_pc.egg-info/entry_points.txt
+writing requirements to teleop_pc.egg-info/requires.txt
+writing top-level names to teleop_pc.egg-info/top_level.txt
+reading manifest file 'teleop_pc.egg-info/SOURCES.txt'
+writing manifest file 'teleop_pc.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages/teleop-pc.egg-link (link to .)
+Installing teleop_pc_node script to /home/pc/dev_src/install/teleop_pc/lib/teleop_pc
+
+Installed /home/pc/dev_src/build/teleop_pc
+running install_data
