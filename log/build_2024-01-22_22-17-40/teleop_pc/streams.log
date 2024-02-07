@@ -1,0 +1,23 @@
+[0.693s] Invoking command in '/home/pc/dev_src/src/teleop_pc': PYTHONPATH=/home/pc/dev_src/build/teleop_pc/prefix_override:/home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_pc build --build-base /home/pc/dev_src/build/teleop_pc/build install --record /home/pc/dev_src/build/teleop_pc/install.log --single-version-externally-managed
+[0.942s] running egg_info
+[0.943s] writing ../../build/teleop_pc/teleop_pc.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../../build/teleop_pc/teleop_pc.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../build/teleop_pc/teleop_pc.egg-info/entry_points.txt
+[0.945s] writing requirements to ../../build/teleop_pc/teleop_pc.egg-info/requires.txt
+[0.945s] writing top-level names to ../../build/teleop_pc/teleop_pc.egg-info/top_level.txt
+[0.947s] reading manifest file '../../build/teleop_pc/teleop_pc.egg-info/SOURCES.txt'
+[0.949s] writing manifest file '../../build/teleop_pc/teleop_pc.egg-info/SOURCES.txt'
+[0.950s] running build
+[0.950s] running build_py
+[0.952s] running install
+[0.952s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.953s]   warnings.warn(
+[0.953s] running install_lib
+[0.955s] running install_data
+[0.957s] copying package.xml -> /home/pc/dev_src/install/teleop_pc/share/teleop_pc
+[0.957s] running install_egg_info
+[0.958s] removing '/home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages/teleop_pc-0.0.0-py3.10.egg-info' (and everything under it)
+[0.959s] Copying ../../build/teleop_pc/teleop_pc.egg-info to /home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages/teleop_pc-0.0.0-py3.10.egg-info
+[0.960s] running install_scripts
+[0.980s] writing list of installed files to '/home/pc/dev_src/build/teleop_pc/install.log'
+[1.008s] Invoked command in '/home/pc/dev_src/src/teleop_pc' returned '0': PYTHONPATH=/home/pc/dev_src/build/teleop_pc/prefix_override:/home/pc/dev_src/install/teleop_pc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_pc build --build-base /home/pc/dev_src/build/teleop_pc/build install --record /home/pc/dev_src/build/teleop_pc/install.log --single-version-externally-managed

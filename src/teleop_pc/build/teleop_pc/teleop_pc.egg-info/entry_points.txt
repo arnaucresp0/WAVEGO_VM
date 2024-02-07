@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_pc_node = teleop_pc.teleop_pc_node:main
+

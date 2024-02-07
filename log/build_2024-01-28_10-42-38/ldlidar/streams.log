@@ -1,0 +1,29 @@
+[0.068s] Invoking command in '/home/pc/dev_src/build/ldlidar': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pc/dev_src/install/ldlidar
+[0.088s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.290s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.360s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.455s] -- Configuring done
+[0.458s] -- Generating done
+[0.459s] -- Build files have been written to: /home/pc/dev_src/build/ldlidar
+[0.462s] Invoked command in '/home/pc/dev_src/build/ldlidar' returned '0': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pc/dev_src/src/ldrobot-lidar-ros2/ldlidar -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pc/dev_src/install/ldlidar
+[0.466s] Invoking command in '/home/pc/dev_src/build/ldlidar': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pc/dev_src/build/ldlidar -- -j2 -l2
+[0.538s] Invoked command in '/home/pc/dev_src/build/ldlidar' returned '0': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pc/dev_src/build/ldlidar -- -j2 -l2
+[0.578s] Invoking command in '/home/pc/dev_src/build/ldlidar': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pc/dev_src/build/ldlidar
+[0.594s] -- Install configuration: "Release"
+[0.595s] -- Execute custom install script
+[0.599s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[0.612s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[0.632s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[0.645s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[0.659s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/environment/path.sh
+[0.677s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/environment/path.dsv
+[0.688s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/local_setup.bash
+[0.699s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/local_setup.sh
+[0.715s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/local_setup.zsh
+[0.727s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/local_setup.dsv
+[0.740s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/package.dsv
+[0.752s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[0.759s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[0.769s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[0.777s] -- Symlinking: /home/pc/dev_src/install/ldlidar/share/ldlidar/package.xml
+[0.792s] Invoked command in '/home/pc/dev_src/build/ldlidar' returned '0': AMENT_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pc/dev_src/install/ldlidar_node:/home/pc/dev_src/install/ldlidar_component:/opt/ros/humble LD_LIBRARY_PATH=/home/pc/dev_src/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pc/dev_src/build/ldlidar
