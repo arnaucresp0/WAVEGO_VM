@@ -2,3 +2,14 @@
 /build/
 /install/
 /log/
+
+# Ignore generated ROS2 build and package metadata
+/dev_ws/src/*/CMakeLists.txt.user
+/dev_ws/src/*/package.xml.user
+/dev_ws/src/*/ament_cmake_export_dependencies.cmake
+/dev_ws/src/*/ament_cmake_target_dependencies.cmake
+/dev_ws/src/*/CMakeCache.txt
+/dev_ws/src/*/Makefile
+/dev_ws/src/*/CMakeFiles/
+/dev_ws/src/*/cmake-build-debug/
+/dev_ws/src/*/cmake-build-release/
