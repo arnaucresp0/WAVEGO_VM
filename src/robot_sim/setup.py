@@ -1,6 +1,10 @@
+
+from setuptools import setup
+import os
+from glob import glob
 from setuptools import find_packages, setup
 
-package_name = 'teleop_pc'
+package_name = 'robot_sim'
 
 setup(
     name=package_name,
@@ -10,17 +14,19 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
+        (os.path.join('share', package_name, 'meshes'), glob('meshes/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='pc',
     maintainer_email='arnau.crespo.santamaria@gmail.com',
-    description='Teleoperation package to teleoperate the quadruped robot',
+    description='URDF quadruped robot package for ROS2 ',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "teleop_pc_node = teleop_pc.teleop_pc_node:main"
         ],
     },
 )

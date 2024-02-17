@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: teleop-pc
 Version: 0.0.0
-Summary: TODO: Package description
+Summary: Teleoperation package to teleoperate the quadruped robot
 Home-page: UNKNOWN
 Maintainer: pc
-Maintainer-email: pc@todo.todo
-License: TODO: License declaration
+Maintainer-email: arnau.crespo.santamaria@gmail.com
+License: Apache-2.0
 Platform: UNKNOWN
 
 UNKNOWN
