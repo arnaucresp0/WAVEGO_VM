@@ -38,7 +38,8 @@ def main(args=None):
     node = TeleopPCNode()
 
     print("WELCOME TO WAVEGO TELEOP PYTHON SCRIPT:")
-    print("Press 'W' to move forward, 'S' to move backward, 'A' to turn left, 'D' to turn right, 'E' to stop all the moves.")
+    print("Press 'W' to move forward, 'S' to move backward, 'A' to turn left, 'D' to turn right.")
+    print("Press'E' to stop Forward/BAckward move or 'R' to stop turn left/right move.")
     print("Press 'Q' to quit the program.")
     print("----------------------------------------------------------------------------------------------------------------")
 
