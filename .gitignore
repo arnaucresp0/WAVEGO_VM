@@ -2,6 +2,7 @@
 /build/
 /install/
 /log/
+<<<<<<< HEAD
 
 # Ignore generated ROS2 build and package metadata
 /dev_ws/src/*/CMakeLists.txt.user
@@ -13,3 +14,15 @@
 /dev_ws/src/*/CMakeFiles/
 /dev_ws/src/*/cmake-build-debug/
 /dev_ws/src/*/cmake-build-release/
+=======
+build/ldlidar_stl_ros2/CMakeCache.txt
+build/ldlidar_stl_ros2/colcon_command_prefix_build.sh.env
+build/ldlidar_stl_ros2/CTestTestfile.cmake
+build/ldlidar_stl_ros2/CMakeFiles/Makefile.cmake
+build/ldlidar_stl_ros2/CMakeFiles/ldlidar_stl_ros2_node.dir/compiler_depend.make
+build/ldlidar_stl_ros2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+build/teleop_pc/colcon_command_prefix_setup_py.sh.env
+build/teleop_pc/prefix_override/__pycache__/sitecustomize.cpython-310.pyc
+install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+log/latest_build
+>>>>>>> origin/master
