@@ -7,7 +7,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
 
-    urdf_file_name = 'assemblyURDF_SIM_NO_LIDAR.urdf'
+    urdf_file_name = 'assemblyURDF_sim_v3.urdf'
     urdf = os.path.join(
         get_package_share_directory('robot_sim'),
         'urdf',
