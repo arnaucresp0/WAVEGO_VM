@@ -271,3 +271,12 @@ src/log/build_2024-03-10_12-14-53/teleop_pc/stderr.log
 src/log/build_2024-03-10_12-14-53/teleop_pc/stdout_stderr.log
 src/log/build_2024-03-10_12-14-53/teleop_pc/stdout.log
 src/log/build_2024-03-10_12-14-53/teleop_pc/streams.log
+build/ldlidar_stl_ros2/colcon_command_prefix_build.sh.env
+build/teleop_pc/colcon_command_prefix_setup_py.sh.env
+build/teleop_pc/prefix_override/__pycache__/sitecustomize.cpython-310.pyc
+install/setup.bash
+install/setup.ps1
+install/setup.sh
+install/setup.zsh
+install/teleop_pc/lib/python3.10/site-packages/teleop_pc/__pycache__/teleop_pc_node.cpython-310.pyc
+log/latest_build
