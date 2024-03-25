@@ -1,8 +1,4 @@
 /home/pc/dev_src/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
-/home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py
-/home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py
-/home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py
-/home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py
 /home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py
 /home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
 /home/pc/dev_src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
