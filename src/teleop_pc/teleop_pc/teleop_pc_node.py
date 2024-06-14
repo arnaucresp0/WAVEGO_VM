@@ -10,7 +10,7 @@ class TeleopPCNode(Node):
     def __init__(self):
         super().__init__("teleop_pc_node")
         self.logger = self.get_logger()
-        self.publisher = self.create_publisher(String, "teleop_commands", 10)
+        self.publisher = self.create_publisher(String, "teleop_commands", 100)
         self.lock = threading.Lock()
         self.quit = False
 
